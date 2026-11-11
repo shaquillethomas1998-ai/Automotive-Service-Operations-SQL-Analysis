@@ -1,0 +1,5 @@
+TechnicianID,FirstName,LastName,SkillLevel,HireDate,HourlyRate,ActiveFlag
+1,Noah,Garcia,Apprentice,2018-10-16,29.67,1
+2,Brianna,Green,Licensed,2020-04-13,31.4,1
+3,Renee,Johnson,Licensed,2021-03-12,31.38,1
+4,Renee,Chen,Master,2022-09-21,31.16,1

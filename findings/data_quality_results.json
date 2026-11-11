@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "total_issues": 0,
+  "checks": {
+    "duplicate_customer_ids": 0,
+    "duplicate_vehicle_ids": 0,
+    "duplicate_appointment_ids": 0,
+    "duplicate_repair_order_ids": 0,
+    "orphan_vehicles": 0,
+    "orphan_appointments_customers": 0,
+    "orphan_appointments_vehicles": 0,
+    "orphan_order_services": 0,
+    "orphan_service_technicians": 0,
+    "orphan_part_usage": 0,
+    "invalid_appointment_time_order": 0,
+    "invalid_repair_completion_order": 0,
+    "completed_orders_without_timestamp": 0,
+    "open_orders_with_completion_timestamp": 0,
+    "nonpositive_part_quantities": 0,
+    "negative_money_values": 0,
+    "invalid_time_log_order": 0,
+    "invalid_shortage_resolution_order": 0,
+    "overlapping_technician_logs": 0,
+    "appointment_vehicle_owner_mismatch": 0,
+    "repair_order_total_mismatch": 0,
+    "repair_order_labor_mismatch": 0,
+    "repair_order_parts_mismatch": 0
+  }
+}

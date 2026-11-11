@@ -1,0 +1,33 @@
+{
+  "seed": 20261109,
+  "period": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  "row_counts": {
+    "customers": 400,
+    "vehicles": 516,
+    "technicians": 4,
+    "service_types": 12,
+    "parts": 18,
+    "technician_shifts": 1157,
+    "appointments": 1800,
+    "repair_orders": 1513,
+    "repair_order_services": 2024,
+    "technician_time_logs": 2024,
+    "part_usage": 2828,
+    "parts_shortages": 78
+  },
+  "completed_repair_orders": 1476,
+  "average_turnaround_hours": 4.93,
+  "median_turnaround_hours": 2.89,
+  "on_time_completion_rate": 77.37,
+  "completed_order_revenue": 465049.53,
+  "completed_average_ticket": 315.07,
+  "total_recorded_order_value": 476257.64,
+  "parts_shortage_events": 78,
+  "highest_booking_weekday": "Friday",
+  "highest_booking_weekday_count": 410,
+  "most_common_service": "Oil Change",
+  "most_common_service_count": 485
+}

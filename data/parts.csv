@@ -1,0 +1,19 @@
+PartID,PartNumber,PartName,Category,UnitCost,UnitPrice,ReorderLevel,StockOnHand,SupplierLeadDays
+1,OIL-5W30,Synthetic Engine Oil 5W-30,Fluids,38.0,62.0,20,46,3
+2,FILTER-OIL,Standard Oil Filter,Filters,7.5,16.0,18,38,3
+3,PAD-FRONT-A,Front Brake Pad Set A,Brakes,72.0,128.0,8,10,6
+4,PAD-FRONT-B,Front Brake Pad Set B,Brakes,79.0,139.0,8,7,7
+5,PAD-REAR-A,Rear Brake Pad Set A,Brakes,64.0,119.0,8,9,6
+6,PAD-REAR-B,Rear Brake Pad Set B,Brakes,69.0,124.0,8,6,7
+7,BAT-24F,Battery Group 24F,Electrical,118.0,189.0,5,6,5
+8,BAT-48,Battery Group 48,Electrical,132.0,209.0,5,4,6
+9,COOLANT-UNI,Universal Coolant 4 L,Fluids,19.0,36.0,10,22,4
+10,PLUG-IR4,Iridium Spark Plug Set 4,Engine,44.0,88.0,6,11,5
+11,PLUG-IR6,Iridium Spark Plug Set 6,Engine,62.0,118.0,5,7,6
+12,FILTER-AIR-A,Engine Air Filter A,Filters,13.0,31.0,10,18,4
+13,FILTER-AIR-B,Engine Air Filter B,Filters,15.0,34.0,10,13,5
+14,TIRE-VALVE,Tire Valve Stem,Tires,2.5,8.0,25,55,3
+15,ALIGN-SHIM,Alignment Shim Kit,Tires,12.0,29.0,8,16,5
+16,BRAKE-CLEAN,Brake Cleaner,Brakes,5.0,12.0,12,27,3
+17,SHOP-SUPPLY,General Shop Supplies,Supplies,3.0,9.0,30,70,2
+18,WASHER-FLUID,Washer Fluid 4 L,Fluids,4.0,11.0,15,31,3

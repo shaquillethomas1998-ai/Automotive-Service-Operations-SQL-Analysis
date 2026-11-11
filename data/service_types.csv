@@ -1,0 +1,13 @@
+ServiceTypeID,ServiceName,Category,StandardHours,BasePrice
+1,Oil Change,Maintenance,0.7,89.99
+2,Brake Inspection,Brakes,0.8,79.99
+3,Front Brake Pad Replacement,Brakes,2.0,249.99
+4,Rear Brake Pad Replacement,Brakes,2.2,269.99
+5,Diagnostic Scan,Diagnostics,1.0,99.99
+6,Battery Replacement,Electrical,0.8,189.99
+7,Tire Rotation,Tires,0.6,59.99
+8,Seasonal Tire Change,Tires,1.2,139.99
+9,Wheel Alignment,Tires,1.5,149.99
+10,Cooling System Service,Maintenance,1.5,179.99
+11,Spark Plug Replacement,Engine,2.0,299.99
+12,Air Filter Replacement,Maintenance,0.4,49.99

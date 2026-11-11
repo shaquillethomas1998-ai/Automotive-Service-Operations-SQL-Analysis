@@ -1,0 +1,58 @@
+-- Create these measures after connecting Power BI to the SQL Server views.
+
+Total Revenue =
+CALCULATE (
+    SUM ( vw_RepairOrderPerformance[TotalAmount] ),
+    NOT ISBLANK ( vw_RepairOrderPerformance[CompletedAt] )
+)
+
+Total Recorded Order Value =
+SUM ( vw_RepairOrderPerformance[TotalAmount] )
+
+Completed Orders =
+CALCULATE (
+    COUNTROWS ( vw_RepairOrderPerformance ),
+    NOT ISBLANK ( vw_RepairOrderPerformance[CompletedAt] )
+)
+
+Average Ticket =
+DIVIDE ( [Total Revenue], [Completed Orders] )
+
+Average Turnaround Hours =
+AVERAGE ( vw_RepairOrderPerformance[TurnaroundHours] )
+
+On-Time Completion % =
+DIVIDE (
+    SUM ( vw_RepairOrderPerformance[CompletedOnTime] ),
+    [Completed Orders]
+)
+
+Orders With Parts Shortage =
+CALCULATE (
+    [Completed Orders],
+    vw_RepairOrderPerformance[HadPartsShortage] = 1
+)
+
+Parts Shortage Rate =
+DIVIDE ( [Orders With Parts Shortage], [Completed Orders] )
+
+Total Shortage Delay Hours =
+SUM ( vw_PartsShortageImpact[TotalDelayHours] )
+
+Technician Utilization % =
+DIVIDE (
+    SUM ( vw_TechnicianUtilization[LoggedHours] ),
+    SUM ( vw_TechnicianUtilization[ScheduledHours] )
+)
+
+Calendar =
+ADDCOLUMNS (
+    CALENDAR ( DATE ( 2025, 1, 1 ), DATE ( 2025, 12, 31 ) ),
+    "Year", YEAR ( [Date] ),
+    "Month Number", MONTH ( [Date] ),
+    "Month", FORMAT ( [Date], "MMM" ),
+    "Year Month", FORMAT ( [Date], "YYYY-MM" ),
+    "Weekday Number", WEEKDAY ( [Date], 2 ),
+    "Weekday", FORMAT ( [Date], "ddd" )
+)
+
