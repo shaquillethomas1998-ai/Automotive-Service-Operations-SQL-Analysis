@@ -107,7 +107,6 @@ automotive_service_operations_sql_analysis/
 ├── findings/        # Analysis narrative and validation outputs
 ├── scripts/         # Data generation, validation, loading, and analysis
 ├── sql/             # Ordered SQL Server setup and analysis scripts
-├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
