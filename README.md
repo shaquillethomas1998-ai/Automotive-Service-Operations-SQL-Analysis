@@ -4,7 +4,6 @@ An end-to-end SQL Server, Python, and Power BI portfolio project that models the
 
 The project converts a normalized operational dataset into decision-ready reporting on revenue, appointment demand, turnaround performance, parts shortages, and technician capacity. All data is synthetic, deterministic, and created solely for demonstration.
 
-![Automotive Service Operations dashboard overview](dashboard/images/01_operations_overview.png)
 
 ## Business Problem
 
